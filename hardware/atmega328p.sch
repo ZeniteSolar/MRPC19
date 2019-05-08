@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -199,11 +199,7 @@ F 3 "" H 2000 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1150 1900 1050
-Wire Wire Line
 	1700 1050 1700 950 
-Wire Wire Line
-	1900 1050 1850 1050
 $Comp
 L power:GND #PWR0403
 U 1 1 5BF3B38D
@@ -218,10 +214,10 @@ $EndComp
 Text HLabel 2900 2750 2    60   Input ~ 0
 SDA
 $Comp
-L Connector:Raspberry_Pi_2_3 J?
+L Connector:Raspberry_Pi_2_3 J501
 U 1 1 5CD265D6
 P 1950 3350
-F 0 "J?" H 1950 4831 50  0000 C CNN
+F 0 "J501" H 1950 4831 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 1950 4740 50  0000 C CNN
 F 2 "" H 1950 3350 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1950 3350 50  0001 C CNN
@@ -241,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 1500 2000 1350
 Wire Wire Line
-	2050 2050 2150 2050
+	2050 2050 2100 2050
 Wire Wire Line
 	1550 4650 1650 4650
 Connection ~ 1650 4650
@@ -263,10 +259,10 @@ Connection ~ 2150 4650
 Wire Wire Line
 	2150 4650 2250 4650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0501
 U 1 1 5CD43A1C
 P 2050 4750
-F 0 "#PWR?" H 2050 4500 50  0001 C CNN
+F 0 "#PWR0501" H 2050 4500 50  0001 C CNN
 F 1 "GND" H 2055 4577 50  0000 C CNN
 F 2 "" H 2050 4750 50  0001 C CNN
 F 3 "" H 2050 4750 50  0001 C CNN
@@ -325,4 +321,51 @@ Wire Wire Line
 	2750 4050 4400 4050
 Wire Wire Line
 	2750 4150 4100 4150
+Text HLabel 2550 1950 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	2550 1950 2450 1950
+Wire Wire Line
+	2100 1950 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	2100 2050 2150 2050
+NoConn ~ 1150 4050
+NoConn ~ 1150 3950
+NoConn ~ 1150 3650
+NoConn ~ 1150 3550
+NoConn ~ 1150 3750
+NoConn ~ 1150 3250
+NoConn ~ 1150 3350
+NoConn ~ 1150 3150
+NoConn ~ 1150 2950
+NoConn ~ 1150 2850
+NoConn ~ 1150 2750
+NoConn ~ 2750 2550
+NoConn ~ 2750 2450
+NoConn ~ 2750 3050
+NoConn ~ 2750 3150
+NoConn ~ 2750 3250
+NoConn ~ 2750 3450
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CD6B837
+P 2450 1900
+F 0 "#FLG0101" H 2450 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2450 2073 50  0000 C CNN
+F 2 "" H 2450 1900 50  0001 C CNN
+F 3 "~" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1900 2450 1950
+Connection ~ 2450 1950
+Wire Wire Line
+	2450 1950 2100 1950
+NoConn ~ 7550 4250
+Wire Wire Line
+	1850 1050 2000 1050
+Wire Wire Line
+	2000 1150 2000 1050
 $EndSCHEMATC
