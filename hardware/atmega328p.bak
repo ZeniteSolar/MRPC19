@@ -199,11 +199,7 @@ F 3 "" H 2000 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1150 1900 1050
-Wire Wire Line
 	1700 1050 1700 950 
-Wire Wire Line
-	1900 1050 1850 1050
 $Comp
 L power:GND #PWR0403
 U 1 1 5BF3B38D
@@ -223,7 +219,7 @@ U 1 1 5CD265D6
 P 1950 3350
 F 0 "J501" H 1950 4831 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 1950 4740 50  0000 C CNN
-F 2 "" H 1950 3350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1950 3350 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1950 3350 50  0001 C CNN
 	1    1950 3350
 	1    0    0    -1  
@@ -368,4 +364,8 @@ Connection ~ 2450 1950
 Wire Wire Line
 	2450 1950 2100 1950
 NoConn ~ 7550 4250
+Wire Wire Line
+	1850 1050 2000 1050
+Wire Wire Line
+	2000 1150 2000 1050
 $EndSCHEMATC
