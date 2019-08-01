@@ -144,7 +144,7 @@ $EndComp
 Text Notes 6700 4850 0    60   Italic 0
 EMI/ESD Protection Solutions for the CAN Bus: \nhttps://www.onsemi.com/pub/Collateral/AND8169-D.PDF\nSparkFun CAN-Bus Shield:\nhttps://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP203
+L Connector:TestPoint TP203
 U 1 1 5AAC2327
 P 4250 3050
 F 0 "TP203" H 4250 3320 50  0000 C CNN
@@ -155,7 +155,7 @@ F 3 "" H 4450 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP204
+L Connector:TestPoint TP204
 U 1 1 5AAC23CC
 P 4250 3250
 F 0 "TP204" H 4250 3520 50  0000 C CNN
@@ -172,7 +172,7 @@ Wire Wire Line
 	4250 3250 4250 3200
 Connection ~ 4250 3200
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP209
+L Connector:TestPoint TP209
 U 1 1 5AAC2B03
 P 3700 3650
 F 0 "TP209" H 3700 3920 50  0000 C CNN
@@ -183,7 +183,7 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP201
+L Connector:TestPoint TP201
 U 1 1 5AAC2C42
 P 2250 3000
 F 0 "TP201" H 2250 3270 50  0000 C CNN
@@ -194,7 +194,7 @@ F 3 "" H 2450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP202
+L Connector:TestPoint TP202
 U 1 1 5AAC2C8C
 P 2100 3050
 F 0 "TP202" H 2100 3320 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 2300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP206
+L Connector:TestPoint TP206
 U 1 1 5AAC2CDB
 P 1800 3550
 F 0 "TP206" H 1800 3820 50  0000 C CNN
@@ -216,7 +216,7 @@ F 3 "" H 2000 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP205
+L Connector:TestPoint TP205
 U 1 1 5AAC2E79
 P 1950 3450
 F 0 "TP205" H 1950 3720 50  0000 C CNN
@@ -254,7 +254,7 @@ Wire Wire Line
 	7600 3600 7650 3600
 Connection ~ 7650 3600
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP208
+L Connector:TestPoint TP208
 U 1 1 5AAC8491
 P 8800 3600
 F 0 "TP208" V 8700 3700 50  0000 C CNN
@@ -265,7 +265,7 @@ F 3 "" H 9000 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP207
+L Connector:TestPoint TP207
 U 1 1 5AAC8C25
 P 7600 3600
 F 0 "TP207" V 7500 3700 50  0000 C CNN

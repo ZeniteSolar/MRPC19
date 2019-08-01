@@ -144,7 +144,7 @@ $EndComp
 Text Notes 6700 4850 0    60   Italic 0
 EMI/ESD Protection Solutions for the CAN Bus: \nhttps://www.onsemi.com/pub/Collateral/AND8169-D.PDF\nSparkFun CAN-Bus Shield:\nhttps://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP203
+L Connector:TestPoint TP203
 U 1 1 5AAC2327
 P 4250 3050
 F 0 "TP203" H 4250 3320 50  0000 C CNN
@@ -155,7 +155,7 @@ F 3 "" H 4450 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP204
+L Connector:TestPoint TP204
 U 1 1 5AAC23CC
 P 4250 3250
 F 0 "TP204" H 4250 3520 50  0000 C CNN
@@ -172,7 +172,7 @@ Wire Wire Line
 	4250 3250 4250 3200
 Connection ~ 4250 3200
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP209
+L Connector:TestPoint TP209
 U 1 1 5AAC2B03
 P 3700 3650
 F 0 "TP209" H 3700 3920 50  0000 C CNN
@@ -183,7 +183,7 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP201
+L Connector:TestPoint TP201
 U 1 1 5AAC2C42
 P 2250 3000
 F 0 "TP201" H 2250 3270 50  0000 C CNN
@@ -194,7 +194,7 @@ F 3 "" H 2450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP202
+L Connector:TestPoint TP202
 U 1 1 5AAC2C8C
 P 2100 3050
 F 0 "TP202" H 2100 3320 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 2300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP206
+L Connector:TestPoint TP206
 U 1 1 5AAC2CDB
 P 1800 3550
 F 0 "TP206" H 1800 3820 50  0000 C CNN
@@ -216,7 +216,7 @@ F 3 "" H 2000 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP205
+L Connector:TestPoint TP205
 U 1 1 5AAC2E79
 P 1950 3450
 F 0 "TP205" H 1950 3720 50  0000 C CNN
@@ -254,7 +254,7 @@ Wire Wire Line
 	7600 3600 7650 3600
 Connection ~ 7650 3600
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP208
+L Connector:TestPoint TP208
 U 1 1 5AAC8491
 P 8800 3600
 F 0 "TP208" V 8700 3700 50  0000 C CNN
@@ -265,7 +265,7 @@ F 3 "" H 9000 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L basicsensormodule-rescue:TestPoint-Connector TP207
+L Connector:TestPoint TP207
 U 1 1 5AAC8C25
 P 7600 3600
 F 0 "TP207" V 7500 3700 50  0000 C CNN
@@ -276,9 +276,7 @@ F 3 "" H 7800 3600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4250 3100 4600 3100
-Wire Wire Line
-	4250 3200 5950 3200
+	4250 3200 4600 3200
 Wire Wire Line
 	3700 3700 3800 3700
 Wire Wire Line
@@ -615,45 +613,47 @@ Wire Wire Line
 $Comp
 L Device:R_Small R205
 U 1 1 5CD56C8C
-P 4850 3100
-F 0 "R205" V 4654 3100 50  0000 C CNN
-F 1 "10K" V 4745 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4850 3100 50  0001 C CNN
-F 3 "~" H 4850 3100 50  0001 C CNN
-	1    4850 3100
+P 4850 3200
+F 0 "R205" V 4654 3200 50  0000 C CNN
+F 1 "10K" V 4745 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4850 3200 50  0001 C CNN
+F 3 "~" H 4850 3200 50  0001 C CNN
+	1    4850 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R204
 U 1 1 5CD57829
-P 4600 3200
-F 0 "R204" H 4541 3154 50  0000 R CNN
-F 1 "22K" H 4541 3245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 3200 50  0001 C CNN
-F 3 "~" H 4600 3200 50  0001 C CNN
-	1    4600 3200
+P 4600 3300
+F 0 "R204" H 4541 3254 50  0000 R CNN
+F 1 "22K" H 4541 3345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 3300 50  0001 C CNN
+F 3 "~" H 4600 3300 50  0001 C CNN
+	1    4600 3300
 	-1   0    0    1   
 $EndComp
-Connection ~ 4600 3100
-Wire Wire Line
-	4600 3100 4750 3100
-Wire Wire Line
-	4950 3100 5950 3100
 $Comp
 L power:GND #PWR0201
 U 1 1 5CD5B5AA
-P 4600 3450
-F 0 "#PWR0201" H 4600 3200 50  0001 C CNN
-F 1 "GND" H 4605 3277 50  0000 C CNN
-F 2 "" H 4600 3450 50  0001 C CNN
-F 3 "" H 4600 3450 50  0001 C CNN
-	1    4600 3450
+P 4600 3550
+F 0 "#PWR0201" H 4600 3300 50  0001 C CNN
+F 1 "GND" H 4605 3377 50  0000 C CNN
+F 2 "" H 4600 3550 50  0001 C CNN
+F 3 "" H 4600 3550 50  0001 C CNN
+	1    4600 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 3300 4600 3450
+	4600 3400 4600 3550
 Text Label 3100 2350 0    50   ~ 0
 3V3
 Text Label 4250 4300 0    50   ~ 0
 3V3
+Connection ~ 4600 3200
+Wire Wire Line
+	4600 3200 4750 3200
+Wire Wire Line
+	4950 3200 5950 3200
+Wire Wire Line
+	4250 3100 5950 3100
 $EndSCHEMATC
